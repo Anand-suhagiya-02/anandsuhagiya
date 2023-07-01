@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+a{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;  
+    margin: 10px;
+    line-height: 100px;
+    box-shadow: 1px 4px 2px 2px black;
+    
+}
