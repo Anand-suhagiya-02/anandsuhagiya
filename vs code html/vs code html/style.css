@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: bottom ;
+}
+a{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;  
+    margin: 10px;
+    line-height: 100px;
+    box-shadow: 1px 4px 2px 2px black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+header{
+    position:fixed;
+    top: 20;
+    left: 500;
+    width: px;
+    padding: 2px 100px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+
+}
+*logo{
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: blue;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation .btnlogin-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: 5s;
+}
+.navigation  .btnlogin-popup:hover{
+    background: black;
+    color: #162938;
+
+}
+
